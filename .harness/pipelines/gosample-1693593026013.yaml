@@ -24,7 +24,7 @@ pipeline:
                   spec:
                     shell: Sh
                     command: |-
-                      echo "Welcome to Harness CI"
+                      echo "goodbye to Harness CI"
                       go build
                       go test
                   description: welcome to harness
