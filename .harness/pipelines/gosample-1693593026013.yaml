@@ -22,10 +22,12 @@ pipeline:
                   identifier: build_go_app
                   name: Build Go App
                   spec:
+                    shell: Sh
                     command: |-
                       echo "Welcome to Harness CI"
                       go build
                       go test
+                  description: welcome to harness
               - step:
                   identifier: gotest
                   name: go_test
