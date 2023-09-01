@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_gosample_1693593028456-push-trigger-input-set
+  identifier: Build_gosample_1693593028456pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: jaja
+  pipeline:
+    identifier: Build_gosample_1693593028456
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
